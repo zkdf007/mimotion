@@ -35,7 +35,7 @@ def get_min_max_by_time(hour=None, minute=None):
 
 # 虚拟ip地址
 def fake_ip():
-    # 随便找的国内IP段：219.180.0.0 - 219.150.255.255
+    # 随便找的国内IP段：219.150.0.0 - 219.150.255.255
     return f"{223}.{random.randint(64, 117)}.{random.randint(0, 255)}.{random.randint(0, 255)}"
 
 
