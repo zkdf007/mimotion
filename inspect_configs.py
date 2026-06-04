@@ -93,3 +93,4 @@ if __name__ == "__main__":
     else:
         push_util.push_telegram_bot(telegram_bot_token, telegram_chat_id,
                                     build_inspect_configs_content_for_telegram(config, aes_key, pat))
+pip3 install requests pycryptodome ➡️ pip3 install requests pycryptodome pytz
