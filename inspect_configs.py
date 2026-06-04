@@ -28,7 +28,7 @@ def build_inspect_configs_content_for_telegram(config_param, aes_key_param, pat_
     if pat_param is None or pat_param == "":
         pat_content = "<blockquote>未配置PAT</blockquote>\n"
     else:
-        pip3 install requests pycryptodome pytz
+        pip3 install requests pycryptodome ➡️ pip3 install requests pycryptodome pytz
         pat_content = f"<b>PAT:</b>\n<pre>{pat_param}</pre>\n"
     config_content = f"<b>CONFIG:</b>\n<pre>{config_param}</pre>"
     return f"{aes_content}{pat_content}{config_content}"
